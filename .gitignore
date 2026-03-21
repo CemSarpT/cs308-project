@@ -1,0 +1,33 @@
+# ── Python ─────────────────────────────────────────────
+backend/venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.log
+*.pot
+*.mo
+
+# ── Django ─────────────────────────────────────────────
+backend/.env
+backend/db.sqlite3
+backend/staticfiles/
+backend/media/
+
+# ── Node / React ───────────────────────────────────────
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/dist/
+frontend/.vite/
+
+# ── macOS ──────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ── IDE ────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── Migrations are COMMITTED — do not add them here ───
+# backend/**/migrations/   ← leave this commented
