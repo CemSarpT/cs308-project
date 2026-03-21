@@ -198,11 +198,10 @@ load_dotenv()
 All secrets are loaded from `backend/.env`. This file is never committed to git. The `.env` file looks like:
 
 ```env
-SECRET_KEY=django-insecure-...
-DEBUG=True
+SECRET_KEY=yd)pphi&5=aqrk^gkxl1a4_^&31a%cw^%j8zkeimmq_(b_bb%%
 DB_NAME=cs308_db
 DB_USER=project_admin
-DB_PASSWORD=yourpassword123
+DB_PASSWORD=9516
 DB_HOST=localhost
 DB_PORT=5432
 ALLOWED_HOSTS=localhost,127.0.0.1
